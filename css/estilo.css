@@ -18,7 +18,7 @@ main {
 div h2 {
     color:black
 }
-.nav{
+.Nav{
     Background-color: pink;
 }
 footer{ 
@@ -29,7 +29,7 @@ footer{
     80%{transform:translateY(-20px);}
 }
 
-footer{
+.footer{
     animation-name: Logoanimado;
     animation-iteration-count:infinite;
     animation-timing-function:calc(10s);
@@ -39,4 +39,9 @@ footer{
 @keyframes aparecer {
     0%{opacity:0;}
     100%{opacity: 1;}
+}
+.footer{
+    justify-content:end;
+    padding:10px;
+
 }
