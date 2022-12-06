@@ -40,8 +40,11 @@ footer{
     0%{opacity:0;}
     100%{opacity: 1;}
 }
-.footer{
+footer{
     justify-content:end;
     padding:10px;
-
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center; 
+    
 }
