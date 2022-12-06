@@ -1,0 +1,27 @@
+footer{ 
+    Background-color: pink;
+}
+@keyframes Logoanimado {
+    30%{transform:translateX(100deg);}
+    80%{transform:translateY(-20px);}
+}
+
+.footer{
+    animation-name: Logoanimado;
+    animation-iteration-count:infinite;
+    animation-timing-function:calc(10s);
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+@keyframes aparecer {
+    0%{opacity:0;}
+    100%{opacity: 1;}
+}
+footer{
+    justify-content:end;
+    padding:10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center; 
+    
+}
